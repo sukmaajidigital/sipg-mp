@@ -74,6 +74,16 @@
                 <nav aria-label="breadcrumb">
 
                     <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
+                        <!-- update nav sidebar by aji-->
+                        <li class="nav-item d-xl-none px-2 d-flex align-items-center">
+                            <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
+                                <div class="sidenav-toggler-inner">
+                                    <i class="sidenav-toggler-line"></i>
+                                    <i class="sidenav-toggler-line"></i>
+                                    <i class="sidenav-toggler-line"></i>
+                                </div>
+                            </a>
+                        </li>
                         <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark"
                                 href="{{ url('/') }}">Dashboard</a>
                         </li>
@@ -93,15 +103,7 @@
 
                     </div>
                     <ul class="navbar-nav  justify-content-end">
-                        <li class="nav-item d-xl-none px-2 d-flex align-items-center">
-                            <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
-                                <div class="sidenav-toggler-inner">
-                                    <i class="sidenav-toggler-line"></i>
-                                    <i class="sidenav-toggler-line"></i>
-                                    <i class="sidenav-toggler-line"></i>
-                                </div>
-                            </a>
-                        </li>
+                        <!-- location before navbar update -->
                         <li class="nav-item dropdown pe-2 d-flex align-items-center">
                             {{-- <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -116,7 +118,7 @@
                             <ul class="dropdown-menu  dropdown-menu-end  px-2 " aria-labelledby="dropdownMenuButton">
                                 <li>
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
-                                        <div class="d-flex text-danger">
+                                        <div class="d-flex text-primary">
                                             <div class="pe-2">
                                                 <i class="material-icons opacity-10">logout</i>
                                             </div>
@@ -154,16 +156,16 @@
                                 ©
                                 <script>
                                     document.write(new Date().getFullYear())
-                                </script>, Bridgestone Kalimantan Plantation
+                                </script>, PT Wira Wiri
                             </div>
                         </div>
                         <div class="col-lg-6">
                             {{-- <div id="real-time-clock"></div> --}}
                             <ul class="nav nav-footer justify-content-center justify-content-lg-end">
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <a href="https://www.bridgestone.com/" class="nav-link pe-0 text-muted"
                                         target="_blank">About Us</a>
-                                </li>
+                                </li> -->
                                 {{-- <li class="nav-item">
                                     <a href="https://www.creative-tim.com/blog" class="nav-link text-muted"
                                         target="_blank">Blog</a>
