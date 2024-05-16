@@ -90,10 +90,9 @@
                         <li class="breadcrumb-item text-sm text-dark active" aria-current="page">{{ $title }}
                         </li>
                     </ol>
-                    <h6 class="font-weight-bolder mb-0">{{ $title }}</h6>
-
+                    <h1 class="font-weight-bolder mt-5 fs-2">{{ $title }}</h1>
                 </nav>
-                <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
+                <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md me-sm-4" id="navbar">
                     <div class="ms-md-auto pe-md-3 d-flex align-items-center">
 
                         {{-- <div class="input-group input-group-outline">
