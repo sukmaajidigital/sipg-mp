@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" href="{{ asset('assets/newimg/umk.ico') }}">
 
     <title>
-        MP - {{ $title }}
+        MP - JUDUL
     </title>
     <!--     Fonts and icons     -->
     <link rel="stylesheet" type="text/css"
@@ -87,10 +87,10 @@
                         <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark"
                                 href="{{ url('/') }}">Dashboard</a>
                         </li>
-                        <li class="breadcrumb-item text-sm text-dark active" aria-current="page">{{ $title }}
+                        <li class="breadcrumb-item text-sm text-dark active" aria-current="page">JUDUL
                         </li>
                     </ol>
-                    <h1 class="font-weight-bolder mt-5 fs-2">{{ $title }}</h1>
+                    <h1 class="font-weight-bolder mt-5 fs-2">JUDUL</h1>
                 </nav>
                 <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md me-sm-4" id="navbar">
                     <div class="ms-md-auto pe-md-3 d-flex align-items-center">
